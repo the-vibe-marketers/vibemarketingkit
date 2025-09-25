@@ -1,31 +1,63 @@
-# Market Gap Analysis
 
-**Based on Perplexity MCP Research**
+Optional follow-up prompts:
+- *“Expand each content format into 2 specific campaign ideas.”*  
+- *“Rank gaps by ease of execution vs. potential impact.”*  
+
+---
+
+## 📊 Gap Analysis Framework
+
+### Gap 1: [Give gap a clear name]
+- **Observation:** [What competitors do poorly / overlook]  
+- **Unique Angle:** [Fresh way to position against the gap]  
+- **Formats to Try:**  
+  - [Format 1]  
+  - [Format 2]  
+  - [Format 3]  
 
 ---
 
-## Gap 1: Implementation Void
-- **Observation:** Most platforms are theory-heavy, light on execution  
-- **Unique Angle:** *Build, don’t just learn*  
-- **Content Ideas:** Live builds, 30-day challenges, “Zero to Launch” series
-
-## Gap 2: Community Engagement Wasteland
-- **Observation:** Many communities are thinly veiled sales channels  
-- **Unique Angle:** *Real community, real results*  
-- **Content Ideas:** Member spotlights, behind-the-scenes, UGC repurposing
-
-## Gap 3: Beginner Accountability Crisis
-- **Observation:** Platforms target intermediate+ marketers  
-- **Unique Angle:** *AI marketing for real people*  
-- **Content Ideas:** Myth-busting posts, 15-min wins, non-techie guides
-
-## Gap 4+: [Add further gaps as identified by research]
+### Gap 2: [Name gap]
+- **Observation:**  
+- **Unique Angle:**  
+- **Formats to Try:**  
 
 ---
-**Competitor Notes:**  
-- Marketing AI Institute: Expensive, theory-heavy  
-- CXL: Advanced focus, less beginner-friendly  
-- Demand Curve: Practical but limited depth  
-- Common theme: Tool-centric, weak on workflow/community
+
+### Gap 3:  
+- **Observation:**  
+- **Unique Angle:**  
+- **Formats to Try:**  
+
+---
+
+### Gap 4:  
+- **Observation:**  
+- **Unique Angle:**  
+- **Formats to Try:**  
+
+---
+
+### Gap 5:  
+- **Observation:**  
+- **Unique Angle:**  
+- **Formats to Try:**  
+
+---
+
+## 🧩 Extra Analysis
+
+- **Competitor Notes:** Key players, their strengths/weaknesses  
+- **Positioning Opportunity:** One-liner describing how you can own the space  
+- **Content Buckets:** Emergency / Service / Problem / Local (or equivalent buckets in your niche)
+
+---
+
+## ✅ Next Actions
+
+1. Select **3 low-effort, high-impact gaps** to act on first.  
+2. Convert angles into **draft content outlines**.  
+3. Assign formats to calendar slots (weekly cadence).  
+4. Validate performance → expand to full campaign.  
 
 ---
