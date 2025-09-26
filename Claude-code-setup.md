@@ -53,16 +53,4 @@ Run in terminal:
 cla --version
 ```
 
-✅ Should return installed Claude Code version.
-
----
-
-## Quick Recap
-
-1. Subscribe to Claude Max
-2. Install Claude Code with npm
-3. Connect Cursor → verify “IDE connected”
-4. Run `cla --version` to confirm setup
-
-```
 
