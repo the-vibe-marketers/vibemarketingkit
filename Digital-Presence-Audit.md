@@ -1,7 +1,4 @@
-Got it ✅ — here’s a **Cursor-ready Markdown template** for
-`Digital-Presence-Audit.md`, directly inspired by Transcript 1 (phase 2 of the framework) and expanded into a usable artifact:
 
----
 
 # Digital Presence Audit (Template)
 
