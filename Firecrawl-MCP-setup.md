@@ -1,5 +1,8 @@
 
 
+````markdown
+# ⚙️ Setup-Firecrawl-MCP.md
+
 This guide shows you how to set up **Firecrawl MCP** inside Cursor so you can crawl any website and extract **site copy, structure, UVPs, brand voice, and CTAs**.
 
 ---
@@ -86,7 +89,3 @@ Save to Site-Executive-Summary.md
 
 ```
 
----
-
-Would you like me to also draft a **parallel `Setup-Perplexity-MCP.md`** (with JSON snippet + toggle + sanity check) so both research MCPs match your setup style?
-```
