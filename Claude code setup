@@ -1,101 +1,93 @@
-Here’s your full Markdown file, cleaned up and ready to hand over as `Setup-Claude-Code.md`:
+Here’s your cleaned-up **Cursor-ready setup doc** in `.md` format:
 
 ````markdown
-# Setup-Claude-Code.md
+# ⚙️ Setup-Claude-Code.md
 
-This guide helps you set up **Claude Code** as your development + research environment.
-
----
-
-## ⚠️ Before You Begin
-
-* A **Mac** (steps below assume macOS with terminal access).
-* A **Claude Desktop subscription** (~$20/mo at time of transcript).
-* A **GitHub account** (for version control).
-* (Optional but recommended) A **Vercel account** (for deployment).
+This guide shows you how to set up **Claude Code inside Cursor** (or Windsurf / VS Code) so you can use Opus 4 directly in your IDE.
 
 ---
 
-## 1. Install Claude Code
+## 1. Subscribe to Claude Max
 
-1. Open your **Mac terminal**.
-2. Search for the **Claude Code install command** (or ask ChatGPT/Claude directly).  
-   Example:
+- Go to [Anthropic Claude](https://claude.ai)  
+- Subscribe to a **Claude Max plan** ($100–$200/month).  
+- Claude Code (with Opus 4) is included in this plan.  
+
+---
+
+## 2. Install Claude Code
+
+1. Copy the **install command** from Claude’s website (given after subscription).  
+2. Open **Cursor’s integrated terminal**.  
+3. Paste the command, e.g.:  
 
    ```bash
-   brew install claude-code
+   npm install -g claude-code
 ````
 
-*(Replace with the actual command provided by Claude Desktop after subscription.)*
-3. Log in via **Claude Desktop** (authenticate once, link to your subscription).
-4. When finished, Claude Code will be available in your terminal.
+*(Exact command may differ — use the one from Anthropic’s docs.)*
 
 ---
 
-## 2. Authenticate + Link
+## 3. Connect Cursor to Claude Code
 
-* After install, Claude Desktop will pop up → log in & authorize.
-* This connects terminal commands (`claude` / `claude-code`) to your account.
+1. In Cursor terminal, type:
 
----
-
-## 3. GitHub Setup
-
-1. Create a **GitHub repository** (private or public).
-2. In Claude Code, ask:
-
-   ```
-   How do I push this project to GitHub?
+   ```bash
+   cla
    ```
 
-   → It will walk you through `git init`, `git remote add`, and `git push`.
-3. Benefit: version control, ability to roll back, share, and collaborate.
+   ✅ Should respond with **“IDE connected.”**
+
+2. If the Claude Code window does not open automatically:
+
+   * Press `⌘ + P` (search in Cursor).
+   * Type `> Run Claude Code`.
+   * Select it → Claude Code launches inside Cursor.
 
 ---
 
-## 4. Deploy with Vercel
+## 4. Verify the Setup
 
-1. Sign up at [Vercel](https://vercel.com).
-2. Connect your GitHub repo.
-3. Every time you **push code to GitHub**, Vercel auto-updates your deployed site.
+* You should now see **two AI panels** in Cursor:
 
-   * No manual redeploys required.
-   * Great for **non-technical marketers**: write → push → live site.
+  * **Cursor Agent** (native AI)
+  * **Claude Code** (Opus 4 with to-do lists & long memory)
+
+* Run this sanity check:
+
+  ```bash
+  cla --version
+  ```
+
+  ✅ Should display the installed Claude Code version.
 
 ---
 
-## 5. Sanity Check
+## 5. Usage
 
-Run in terminal:
+* Claude Code runs **directly inside Cursor** as a second AI panel.
+* It gives you:
 
-```bash
-claude --version
+  * **To-do list tracking** (auto-generated).
+  * **Iterative coding & debugging**.
+  * Ability to build **full apps** (Next.js, APIs, dashboards).
+
+💡 Best part: no more terminal-only workflow. Claude Code now runs **inside your IDE**.
+
+---
+
+## ✅ Quick Recap
+
+1. Subscribe to Claude Max.
+2. Install Claude Code via terminal.
+3. Connect it in Cursor (`cla`).
+4. Verify with `cla --version`.
+5. Start building with Opus 4 inside Cursor.
+
+---
+
 ```
 
-✅ Should return the installed Claude Code version.
-
-Push a small repo:
-
-```bash
-git add .  
-git commit -m "first commit"  
-git push origin main  
+Would you like me to also make **a modular version** (like `Setup-Claude-Code.md`, `Setup-Firecrawl.md`, `Setup-Perplexity.md`) so each piece can be dropped into a Cursor project separately depending on what the user needs?
 ```
-
-✅ Verify code syncs with GitHub.
-
-Check Vercel deployment:
-
-* Push a code update → confirm Vercel redeploys automatically.
-
----
-
-## Quick Recap
-
-* **Claude Code** = AI pair programmer in your terminal.
-* **GitHub** = version control for your projects.
-* **Vercel** = instant deploy pipeline tied to GitHub.
-
----
-
-
