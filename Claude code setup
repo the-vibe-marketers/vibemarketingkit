@@ -1,12 +1,5 @@
 
 
-````markdown
-# Setup Claude Code in Cursor
-
-This guide shows you how to set up **Claude Code** inside Cursor (or Windsurf / VS Code) so you can use **Opus 4** directly in your IDE.
-
----
-
 ## ⚠️ Before You Begin
 - A **Claude Max subscription** ($100–$200/month) → [Sign up here](https://claude.ai)  
 - Cursor (or Windsurf / VS Code) installed  
