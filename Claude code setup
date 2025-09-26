@@ -12,14 +12,14 @@
 ## 1. Install Claude Code
 
 1. Open your **Mac terminal**.
-2. Search for the **Claude Code install command** (or ask ChatGPT/Claude directly).
+2. Search for the **Claude Code install command** (or ask ChatGPT/Claude directly).  
    Example:
 
    ```bash
    brew install claude-code
-   ```
+````
 
-   *(Replace with the actual command provided by Claude Desktop after subscription.)*
+*(Replace with the actual command provided by Claude Desktop after subscription.)*
 3. Log in via **Claude Desktop** (authenticate once, link to your subscription).
 4. When finished, Claude Code will be available in your terminal.
 
