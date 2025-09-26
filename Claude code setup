@@ -1,6 +1,3 @@
-Here’s your cleaned-up **Cursor-ready setup doc** in `.md` format:
-
-````markdown
 # ⚙️ Setup-Claude-Code.md
 
 This guide shows you how to set up **Claude Code inside Cursor** (or Windsurf / VS Code) so you can use Opus 4 directly in your IDE.
@@ -23,71 +20,3 @@ This guide shows you how to set up **Claude Code inside Cursor** (or Windsurf / 
 
    ```bash
    npm install -g claude-code
-````
-
-*(Exact command may differ — use the one from Anthropic’s docs.)*
-
----
-
-## 3. Connect Cursor to Claude Code
-
-1. In Cursor terminal, type:
-
-   ```bash
-   cla
-   ```
-
-   ✅ Should respond with **“IDE connected.”**
-
-2. If the Claude Code window does not open automatically:
-
-   * Press `⌘ + P` (search in Cursor).
-   * Type `> Run Claude Code`.
-   * Select it → Claude Code launches inside Cursor.
-
----
-
-## 4. Verify the Setup
-
-* You should now see **two AI panels** in Cursor:
-
-  * **Cursor Agent** (native AI)
-  * **Claude Code** (Opus 4 with to-do lists & long memory)
-
-* Run this sanity check:
-
-  ```bash
-  cla --version
-  ```
-
-  ✅ Should display the installed Claude Code version.
-
----
-
-## 5. Usage
-
-* Claude Code runs **directly inside Cursor** as a second AI panel.
-* It gives you:
-
-  * **To-do list tracking** (auto-generated).
-  * **Iterative coding & debugging**.
-  * Ability to build **full apps** (Next.js, APIs, dashboards).
-
-💡 Best part: no more terminal-only workflow. Claude Code now runs **inside your IDE**.
-
----
-
-## ✅ Quick Recap
-
-1. Subscribe to Claude Max.
-2. Install Claude Code via terminal.
-3. Connect it in Cursor (`cla`).
-4. Verify with `cla --version`.
-5. Start building with Opus 4 inside Cursor.
-
----
-
-```
-
-Would you like me to also make **a modular version** (like `Setup-Claude-Code.md`, `Setup-Firecrawl.md`, `Setup-Perplexity.md`) so each piece can be dropped into a Cursor project separately depending on what the user needs?
-```
