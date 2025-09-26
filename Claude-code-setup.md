@@ -1,3 +1,4 @@
+
 # Setup Claude Code in Cursor
 
 This guide shows you how to set up **Claude Code** inside Cursor (or Windsurf / VS Code) so you can use **Opus 4** directly in your IDE.
@@ -25,3 +26,43 @@ This guide shows you how to set up **Claude Code** inside Cursor (or Windsurf / 
 
    ```bash
    npm install -g claude-code
+````
+
+---
+
+## 3. Connect Cursor to Claude Code
+
+* In Cursor’s terminal, type:
+
+  ```bash
+  cla
+  ```
+* You should see **“IDE connected”**.
+
+If the Claude Code window doesn’t open:
+
+* Hit `⌘ + P` → type `> Run Claude Code` → select it.
+
+---
+
+## 4. Verify Setup
+
+Run in terminal:
+
+```bash
+cla --version
+```
+
+✅ Should return installed Claude Code version.
+
+---
+
+## Quick Recap
+
+1. Subscribe to Claude Max
+2. Install Claude Code with npm
+3. Connect Cursor → verify “IDE connected”
+4. Run `cla --version` to confirm setup
+
+```
+
