@@ -1,4 +1,11 @@
+Here’s your full Markdown file, cleaned up and ready to hand over as `Setup-Claude-Code.md`:
 
+````markdown
+# Setup-Claude-Code.md
+
+This guide helps you set up **Claude Code** as your development + research environment.
+
+---
 
 ## ⚠️ Before You Begin
 
@@ -88,4 +95,7 @@ Check Vercel deployment:
 * **Claude Code** = AI pair programmer in your terminal.
 * **GitHub** = version control for your projects.
 * **Vercel** = instant deploy pipeline tied to GitHub.
+
+---
+
 
