@@ -4,8 +4,7 @@
 
 ### 1. Create a GitHub Account
 
-If you don’t have one yet:
-👉(https://github.com/signup)
+If you don’t have one yet: 👉(https://github.com/signup)
 
 ---
 
@@ -16,12 +15,15 @@ If you don’t have one yet:
 3. Choose **Public** or **Private**
 4. Click **“Create repository”**
 
+<img width="1435" height="810" alt="Screenshot 2025-10-22 at 1 20 54 AM" src="https://github.com/user-attachments/assets/71ec4a44-9b0a-4f68-8cda-82e0bdf0fbdf" />
+
+
 ---
 
 ### 3. Copy the Repo URL
 
 After it’s created, copy the **HTTPS URL**
-(e.g. `https://github.com/yourname/vibe-marketing-kit.git`)
+(e.g. `https://github.com/yourname/gitname.git`)
 
 ---
 
@@ -30,17 +32,15 @@ After it’s created, copy the **HTTPS URL**
 1. Launch Cursor on your computer
 2. Open your local project folder (or make a new empty one)
 
+<img width="2274" height="1594" alt="image" src="https://github.com/user-attachments/assets/1496badf-a04a-43f8-b822-9a617a7a2844" />
+
 ---
 
 ### 5. Open Terminal in Cursor
 
-Go to the bottom → click **“+ Terminal”**
-or press:
+Go to **“+ Terminal”**
 
-```
-Ctrl + `  (Windows)
-Cmd + `  (Mac)
-```
+<img width="1180" height="690" alt="Screenshot 2025-10-22 at 1 23 45 AM" src="https://github.com/user-attachments/assets/9de2e962-ef02-4d60-8055-683a107c5e2f" />
 
 ---
 
