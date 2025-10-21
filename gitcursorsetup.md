@@ -1,75 +1,80 @@
-Looks like I can’t access your GitHub content right now — no repositories are currently connected.
-To fix this so I can pull the exact **GitHub × Cursor setup guide**, please:
+**Connect GitHub with Cursor before** (takes <5 min):
 
-1. Click **“Use Connectors”** (in the sidebar or toolbar).
-2. Choose **GitHub** → select the repos you want me to access.
-3. Then just say **“done”**, and I’ll fetch the correct setup instructions.
+# 🧩 **First-Time GitHub Setup in Cursor**
 
-In the meantime, here’s a clean **manual guide** you can use immediately 👇
+### 1. Create a GitHub Account
 
----
-
-# ⚙️ Setup GitHub in Cursor
-
-Connect GitHub so you can version-control Claude Code projects directly in your IDE.
+If you don’t have one yet:
+👉(https://github.com/signup)
 
 ---
 
-## 1. **Sign in to GitHub**
+### 2. Create a Repository (a project folder on GitHub)
 
-* Go to [GitHub](https://github.com/login) and log in.
-* If 2FA is enabled, make sure it’s accessible.
-
----
-
-## 2. **Connect GitHub in Cursor**
-
-1. Open Cursor → click the **Settings ⚙️ icon** in the bottom-left.
-2. Navigate to **Integrations → GitHub**.
-3. Click **“Connect GitHub Account”** and authorize Cursor.
-4. Once connected, Cursor will show your available repositories.
+1. Go to [https://github.com/new](https://github.com/new)
+2. Name it something like `vibe-marketing-kit`
+3. Choose **Public** or **Private**
+4. Click **“Create repository”**
 
 ---
 
-## 3. **Clone or Create a Repo**
+### 3. Copy the Repo URL
 
-* To **clone**:
-  Open the Command Palette (`⌘ + P` → `> Clone Repository`) → paste your GitHub repo URL.
-* To **create a new repo**:
-
-  1. In GitHub, click **New Repository** → name it (e.g., `vibe-marketing-kit`).
-  2. In Cursor terminal:
-
-     ```bash
-     git init
-     git remote add origin https://github.com/yourname/vibe-marketing-kit.git
-     ```
+After it’s created, copy the **HTTPS URL**
+(e.g. `https://github.com/yourname/vibe-marketing-kit.git`)
 
 ---
 
-## 4. **Authenticate Git from Cursor**
+### 4. Open Cursor
 
-If prompted for authentication:
+1. Launch Cursor on your computer
+2. Open your local project folder (or make a new empty one)
 
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
+---
+
+### 5. Open Terminal in Cursor
+
+Go to the bottom → click **“+ Terminal”**
+or press:
+
+```
+Ctrl + `  (Windows)
+Cmd + `  (Mac)
 ```
 
-Then authenticate with a **Personal Access Token (PAT)** instead of a password:
-
-* Create one at [github.com/settings/tokens](https://github.com/settings/tokens)
-* Select scopes: `repo`, `workflow`, `read:org`
-
 ---
 
-## 5. **Commit and Push from Cursor**
+### 6. Connect Your Folder to GitHub
+
+In the terminal, type these commands one by one:
 
 ```bash
+git init
 git add .
-git commit -m "initial commit"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yourname/vibe-marketing-kit.git
 git push -u origin main
 ```
 
-You can now use Claude Code + GitHub seamlessly — building, committing, and iterating without leaving Cursor.
+---
+
+### 7. When Asked to Log In
+
+Git will open a browser window asking you to sign in to GitHub.
+Click **Authorize GitHub Desktop / Git CLI** → done ✅
+
+If it asks for a **Personal Access Token (PAT)** instead:
+
+* Go here: [https://github.com/settings/tokens](https://github.com/settings/tokens)
+* Create a new one with scopes:
+  `repo`, `workflow`, `read:org`
+* Copy the token and paste it instead of your password.
+
+---
+
+### ✅ You’re Done!
+
+Now Cursor is connected to GitHub.
+Every time you save and push, it’ll sync your changes automatically.
 
