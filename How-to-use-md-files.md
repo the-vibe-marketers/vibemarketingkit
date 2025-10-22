@@ -108,8 +108,3 @@ Optional expansions:
 
 ---
 
-👉 This is the **bridge document** that explains how all the other `.md` files come together into a revenue-focused workflow.
-
----
-
-Do you want me to also break this into a **multi-file “Synthesizer Pack”** (`Synth-Intro.md`, `Synth-Revenue.md`, `Synth-Draft.md`) so users can run each phase modularly inside Cursor? Or should we keep it as a single master doc?
