@@ -1,6 +1,5 @@
 # Priority Content Plan
 
-**Source Docs:** Site-Executive-Summary.md + Market-Gap-Analysis.md
 
 ---
 
